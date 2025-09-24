@@ -8,6 +8,8 @@ pub mod blob;
 pub mod import_export;
 pub mod lookup;
 pub mod ops;
+pub mod postgres_unix_socket;
+pub mod postgres_unix_socket_repro;
 pub mod query;
 
 use std::io::Read;
